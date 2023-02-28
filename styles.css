@@ -1,0 +1,16 @@
+body {
+  background: rgb(88,108,84);
+}
+
+.fade-logo {
+  animation-delay: 0.25s;
+  animation: fadeIn 2.75s;
+}
+
+.center {
+  height: 20%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
