@@ -2,14 +2,33 @@ body {
   background: rgb(88,108,84);
 }
 
-.fade-logo {
-  animation: fadeIn 2.75s;
-  animation-delay: 0.25s;
+
+.fade-in {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  animation: fadeIn 4s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
 }
 
-.center {
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
