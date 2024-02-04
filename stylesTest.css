@@ -1,6 +1,7 @@
 body {
   background: rgb(88,108,84);
   font-family: 'Lato', sans-serif;
+  color: white;
   margin: 0;
   overflow: hidden;
 }
@@ -30,8 +31,8 @@ body {
 }
 
 #text-container p {
+  position: relative;
   margin: 0;
-  color: white;
 }
 
 .logo {
